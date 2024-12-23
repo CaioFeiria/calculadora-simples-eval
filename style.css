@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+body{
+    background-color: #333;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body-calc{
+    padding: 40px;
+    border-radius: 10px;
+    height: 14rem;
+    width: 410px;
+    background-color: #fefefe;
+}
+
+.cal-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.result{
+    display: flex;
+    align-self: flex-start;
+    justify-content: end;
+    background-color: #efefee;
+    overflow: hidden;
+    width: 100%;
+    height: 85px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+span{
+    font-size: 65px;
+}
+
+.outhers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px;
+}
+
+.outhers > button{
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+#module{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#module:hover{
+    cursor: pointer;
+    background-color: rgb(205, 205, 205);;
+}
+
+#AC{
+    font-weight: bold;
+    background-color: rgb(245, 185, 185);
+    width: 74%;
+    font-size: 30px;
+}
+
+#AC:hover{
+    cursor: pointer;
+    background-color: rgb(214, 149, 149);
+}
+
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 4px;
+}
+
+.numbers > button{
+    padding: 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.numbers > button:hover{
+    cursor: pointer;
+    background-color: rgb(205, 205, 205);
+}
+
+.operations > button{
+    padding: 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+.operations > button:hover{
+    cursor: pointer;
+    background-color: rgb(205, 205, 205);
+}
+
+/* #equal{
+    width: 39.5%;
+} */
